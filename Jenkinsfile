@@ -22,7 +22,7 @@ sh "mvn test"
 }
 stage('Run Application'){
 steps{
-java -cp target/classes com.example.App
+sh 'java -cp target/classes com.example.App'
 }
 }
 }
