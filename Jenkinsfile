@@ -30,7 +30,7 @@ post{
 success{
 echo'b and d'
 }
-Failure{
+failure{
 echo'f'
 }
 }
